@@ -1,0 +1,59 @@
+[
+    {
+        "factura": 1,
+        "Fecha": "1d",
+        "cliente": "MAITTE LOPEZ",
+        "subtotal": 20.0,
+        "descuento": 2.0,
+        "iva": 2.16,
+        "total": 20.16,
+        "detalle": [
+            {
+                "poducto": "manzana",
+                "precio": 1.0,
+                "cantidad": 12
+            },
+            {
+                "poducto": "cocacola",
+                "precio": 0.8,
+                "cantidad": 5
+            },
+            {
+                "poducto": "aceite",
+                "precio": 2.0,
+                "cantidad": 2
+            }
+        ]
+    },
+    {
+        "factura": 2,
+        "Fecha": "30-04-2024",
+        "cliente": "lucia flores",
+        "subtotal": 43660.0,
+        "descuento": 4366.0,
+        "iva": 4715.28,
+        "total": 44009.28,
+        "detalle": [
+            {
+                "poducto": "telefono",
+                "precio": 900.0,
+                "cantidad": 3
+            },
+            {
+                "poducto": "laptop",
+                "precio": 10000.0,
+                "cantidad": 4
+            },
+            {
+                "poducto": "ventilador",
+                "precio": 90.0,
+                "cantidad": 2
+            },
+            {
+                "poducto": "cocina",
+                "precio": 780.0,
+                "cantidad": 1
+            }
+        ]
+    }
+]

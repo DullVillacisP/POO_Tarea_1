@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "descripcion": "cocina",
+        "precio": 780.0,
+        "stock": 500
+    },
+    {
+        "id": 2,
+        "descripcion": "cocacola",
+        "precio": 0.8,
+        "stock": 313
+    },
+    {
+        "id": 3,
+        "descripcion": "telefono",
+        "precio": 900.0,
+        "stock": "350"
+    },
+    {
+        "id": 4,
+        "descripcion": "auriculares",
+        "precio": 50.0,
+        "stock": "230"
+    },
+    {
+        "id": 5,
+        "descripcion": "laptop",
+        "precio": 10000.0,
+        "stock": "243"
+    },
+    {
+        "id": 6,
+        "descripcion": "cargador",
+        "precio": 20.0,
+        "stock": "124"
+    },
+    {
+        "id": 7,
+        "descripcion": "ventilador",
+        "precio": 90.0,
+        "stock": 87
+    },
+    {
+        "id": 8,
+        "descripcion": "maleta",
+        "precio": 60.0,
+        "stock": 76
+    }
+]
