@@ -2,7 +2,7 @@
     {
         "factura": 1,
         "Fecha": "1d",
-        "cliente": "MAITTE LOPEZ",
+        "cliente": "",
         "subtotal": 20.0,
         "descuento": 2.0,
         "iva": 2.16,

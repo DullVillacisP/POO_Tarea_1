@@ -556,7 +556,7 @@ class CrudSales(ICrud):
                     gotoxy(2,1);print(cyan_color+"█"*90)
                     gotoxy(2,2);print("██"+" "*85+" "+"██")
                     gotoxy(2,3);print("██"+" "*30+f"Impresion de la Factura#{invoice_number}"+" "*31+"██")
-                    gotoxy(5,5);print("█" * 84)  # Agrega una línea divisoria para resaltar el comienzo de la factura
+                    gotoxy(5,5);print("█" * 84)  
 
                     # Definir la longitud máxima de las etiquetas para alinear los valores
                     max_label_length = max(len(key) for key in invoice if key != 'detalle') + 1  
@@ -571,7 +571,7 @@ class CrudSales(ICrud):
                         else:
                             print(f"{key.title().ljust(max_label_length)}: {value}")
 
-                    print("-" * 30)  # Agrega una línea divisoria al final de la factura
+                    print("-" * 30) 
                     x=input("Presione una tecla para continuar...")
                     borrarPantalla() 
                     print('\033c', end='')
@@ -584,7 +584,6 @@ class CrudSales(ICrud):
                     gotoxy(7,8);print("4. Descuento")
                     gotoxy(7,9);print("5. Iva")
                     gotoxy(7,10);print("6. Total")
-                    # gotoxy(5,11);print("7. Detalle (Agregar/Actualizar/Eliminar)")
                     gotoxy(7,11);print("7. Cancelar")
                     
                     gotoxy(7,13);print('Seleccione una opción:',end="")
